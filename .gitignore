@@ -1,0 +1,7 @@
+dom-app/tizenDomApp/*
+
+lightning-app/dist/*
+lightning-app/node_modules/*
+lightning-app/tizenLightning/*
+lightning-app/tizenDomLightningjs/* 
+

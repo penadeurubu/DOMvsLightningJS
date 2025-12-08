@@ -1,0 +1,34 @@
+{
+  "name": "lightning-app",
+  "version": "0.0.0",
+  "description": "Lightning + SolidJS Performance Test",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "build:tizen": "vite build --sourcemap=false --base=./ --outDir tizenLightning --emptyOutDir false --mode production",
+    "preview": "vite preview --port 5174"    
+  },
+  "dependencies": {
+    "@lightningjs/renderer": "^2.12.3",
+    "@lightningtv/core": "^2.2.3",
+    "@lightningtv/solid": "^2.2.3",
+    "@solid-primitives/list": "^0.1.2",
+    "@solid-primitives/scheduled": "^1.5.2",
+    "@solidjs/router": "^0.15.3",
+    "browserlist": "^1.0.1",
+    "proxy-polyfill": "^0.3.2",
+    "shaka-player": "^4.16.5",
+    "solid-js": "^1.9.9",
+    "vite-plugin-babel": "^1.3.2",
+    "whatwg-fetch": "^3.6.20"
+  },
+  "devDependencies": {
+    "@lightningtv/vite-hex-transform": "^1.1.0",
+    "@vitejs/plugin-legacy": "^7.2.1",
+    "solid-devtools": "^0.34.4",
+    "vite": "^7.1.10",
+    "vite-plugin-solid": "^2.11.9",
+    "vitest": "^3.2.4"
+  }
+}

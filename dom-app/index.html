@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Performance Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <h1>DOM / CSS Performance</h1>
+            <div class="stats">
+                <span>Items: <span id="count">0</span></span>
+                <span class="fps-text">FPS: <span id="fps">0</span></span>
+            </div>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel-track" id="track">
+                <!-- Items injected here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
