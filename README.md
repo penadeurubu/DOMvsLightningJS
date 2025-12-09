@@ -70,7 +70,7 @@ python -m http.server 8000
 - **Framework**: Lightning.js 2.x + SolidJS 1.9.9
 - **Rendering**: WebGL via Lightning Renderer
 - **Animation**: Lightning native animation system
-- **Expected Performance**: ~50-60 FPS
+- **Expected Performance**: ~60 FPS
 
 ### How to run:
 
