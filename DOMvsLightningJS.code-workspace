@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "tizenDomApp",
+			"path": "dom-app/tizenDomApp"
+		},
+		{
+			"name": "tizenLightning",
+			"path": "lightning-app/tizenLightning"
+		}
+	],
+	"settings": {}
+}
