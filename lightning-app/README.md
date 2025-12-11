@@ -1,4 +1,4 @@
-## ⚡ Lightning App (Lightning.js + SolidJS)
+## ⚡ Lightning App (Lightning.js + SolidJS) Release 1.0.0
 
 ### Features:
 - **Framework**: Lightning.js 2.x + SolidJS 1.9.9
